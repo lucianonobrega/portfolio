@@ -1,0 +1,139 @@
+@media screen and (max-width: 1200px) {
+    header {
+        padding: 2.5rem;
+    }
+
+    .hero {
+        justify-content: center;
+        padding: 0 2rem;
+    }
+
+    .hero img {
+        display: none;
+    }
+
+    .heroConteudo {
+        width: 100%;
+        display: flex;
+    }
+
+    .heroConteudo h2 {
+        font-size: 6rem;
+        text-align: center;
+    }
+
+    .heroConteudo p,
+    .heroConteudo a {
+        align-self: center;
+    }
+
+    .containerSobre {
+        gap: 3rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containerSobre img {
+        width: 30rem;
+        height: 30rem;
+    }
+
+    .sobreConteudo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .containerProjetos {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .projeto {
+        width: 100%
+    }
+
+    .containerTecnologias {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .containerDireitos {
+        margin: 0 2.5rem;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    nav {
+        position: absolute;
+        right: 2.5rem;
+        top: 100%;
+        display: none;
+    }
+
+    .containerLinks {
+        flex-direction: column;
+        gap: 0;
+        top: 100%;
+        background-color: var(--preto2);
+        border: 0.2rem solid var(--azul);
+        text-align: center;
+    }
+
+    .containerLinks li:hover {
+        width: 100%;
+        background-color: var(--azul);
+    }
+
+    .containerLinks li:hover a {
+        color: var(--preto);
+    }
+
+    .containerLinks li a {
+        display: block;
+        padding: 2rem;
+        border-bottom: none;
+        transition: none;
+    }
+
+    .containerLinks li a:hover {
+        border-bottom: none;
+    }
+
+    header img {
+        display: block;
+    }
+
+    section {
+        padding: 2rem 1rem;
+    }
+
+    section h2 {
+        font-size: 4rem;
+    }
+
+    .heroConteudo h2 {
+        font-size: 5rem;
+        text-align: center;
+    }
+
+    .heroConteudo p {
+        text-align: center;
+    }
+
+    .heroConteudo a {
+        padding: 1rem 1.5rem;
+    }
+
+    .tecnologias p {
+        text-align: center;
+    }
+
+    .containerDireitos {
+        font-size: 1.2rem;
+    }
+
+    .containerDireitos svg {
+        width: 3rem;
+        height: 3rem;
+    }
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scrollbar-color: var(--preto1) var(--azul);
+    scroll-padding-top: 15vh;
+}
+
+:root {
+    --preto1:#111;
+    --preto2:#222;
+    --cinza:#727272;
+    --branco:#FFF;
+    --azul:#0FF;
+}
+
+body {
+    background-color: var(--preto2);
+}
